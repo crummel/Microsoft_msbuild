@@ -22,6 +22,7 @@
   <ItemGroup Condition="'$(TargetFrameworkIdentifier)' != '.NETStandard'">
     <PackageReference Include="Microsoft.VisualStudio.Setup.Configuration.Interop" Version="$(VisualStudioSetupInteropVersion)" />
 
+    <Reference Include="System.Collections" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Runtime" />
   </ItemGroup>

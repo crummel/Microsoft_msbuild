@@ -21,6 +21,7 @@
 
   <ItemGroup Condition="'$(TargetFrameworkIdentifier)' != '.NETFramework'">
     <PackageReference Include="System.Runtime.Loader" Version="4.0.0" />
+    <Reference Include="System.Runtime" />
   </ItemGroup>
   
   <ItemGroup>
